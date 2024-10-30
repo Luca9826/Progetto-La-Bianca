@@ -228,7 +228,7 @@ li[data-highlight="classic"] {
 }
 
 .white-square2 {
-    width: 14px;
+    width: 30px;
 }
 
 #popup-title {
@@ -281,4 +281,5 @@ li[data-highlight="classic"] {
     font-size: 24px;
     cursor: pointer;
     color: #000000;
+    padding: 0 8px;
 }
