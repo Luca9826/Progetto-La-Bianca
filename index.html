@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- Adattibilità ai dispositivi -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titolo sito -->
+    <title>Ristorante La Bianca - Menu</title>
+    <!-- Icona sito -->
+    <link href="img/Icona.png" rel="icon">
+    <!-- Collegamento al foglio di stile -->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Immagini intestazione -->
+    <div class="image-container">
+        <div class="white-square"></div>
+        <div class="logo-container">
+            <a href="https://www.ristorantelabianca.it" target="_blank">
+                <img src="img/Logo.png" alt="img_logo" class="img_logo">
+            </a>
+        </div>
+        <div class="img-social">
+            <a href="https://www.facebook.com/ristorantelabianca.padernello.bs" target="_blank">
+                <img src="img/Facebook .png" alt="img_facebook" class="img_facebook">
+            </a>
+            <a href="https://www.instagram.com/ristorantelabianca/" target="_blank">
+                <img src="img/Instagram.png" alt="instagram" class="img_instagram">
+            </a>
+        </div>
+    </div>
+    <!-- Titolo pagina -->
+    <div class="title-container">
+        <span class="line"></span>
+        <h1>menu alla carta</h1>
+        <span class="line"></span>
+    </div>
+    <!-- Indicazione dei classici -->
+    <ul>
+        <li data-highlight="classic">
+            <a href="#" class="menu-start">i grandi classici della bianca</a>
+        </li>
+    </ul>
+    <!-- Plateau -->
+    <section class="menu-section">
+        <h2>plateau</h2>
+        <ul>
+            <li>
+                <a href="#" class="menu-item"
+                    data-description="Tutto secondo mercato: ostriche, gamberi rossi di Mazara, gamberi viola di Lampedusa, mazzancolle del mediterraneo, filetti di tonno, canestrelli, capesante."
+                    data-allergeni="ALLERGENI: pesce, crostacei, molluschi, soia." data-img="img\plateau.jpg">plateau
+                    di mare</a>
+                <span class="info-dish">(ideale per due persone)</span>
+                <span class="price">75</span>
+            </li>
+        </ul>
+    </section>
+    <!-- Crudités di mare -->
+    <section class="menu-section">
+        <h2>crudités di mare</h2>
+        <ul>
+            <li>
+                <a href="#" class="menu-item" data-description="Ostrica kys."
+                    data-allergeni="ALLERGENI: molluschi.">ostrica kys</a>
+                <span class="price">5</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item" data-description="Mazzancolla del Mediterraneo."
+                    data-allergeni="ALLERGENI: crostacei.">mazzancolla del mediterraneo</a>
+                <span class="price">4</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item" data-description="Gambero viola di Lampedusa."
+                    data-allergeni="ALLERGENI: crostacei.">gambero viola di lampedusa</a>
+                <span class="price">4,5</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item" data-description="Gambero rosso di Mazara del Vallo."
+                    data-allergeni="ALLERGENI: crostacei.">gambero rosso di mazara del vallo cat.1</a>
+                <span class="price">7,5</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item" data-description="Scampo dei mari del Nord."
+                    data-allergeni="ALLERGENI: crostacei.">scampo dei mari del nord</a>
+                <span class="price">7</span>
+            </li>
+        </ul>
+    </section>
+    <!-- Antipasti -->
+    <section class="menu-section">
+        <h2>antipasti</h2>
+        <ul>
+            <li data-highlight="true">
+                <a href="#" class="menu-item"
+                    data-description="Capasanta, carpaccio di branzino, carpaccio di salmone, battuta di gamberi."
+                    data-allergeni="ALLERGENI: pesce, crostacei, molluschi, soia.">gran piatto di mare</a>
+                <span class="price">24</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item"
+                    data-description="Cannolo salato con crema di burrata, tartare di tonno e granella di pistacchio."
+                    data-allergeni="ALLERGENI: pesce, glutine, latte, uova, frutta a guscio.">cannolo di mare</a>
+                <span class="new">novità</span>
+                <span class="price">22</span>
+            </li>
+            <li data-highlight="true">
+                <a href="#" class="menu-item" data-description="Tre assaggi a fantasia dello chef."
+                    data-allergeni="ALLERGENI: pesce, glutine, molluschi, soia.">tris di mare dello chef</a>
+                <span class="price">19</span>
+            </li>
+            <li data-highlight="true">
+                <a href="#" class="menu-item"
+                    data-description="Filetto di tonno in crosta di semi di papavero, cipolle fritte e teriyaki."
+                    data-allergeni="ALLERGENI: .">tataki di tonno</a>
+                <span class="price">18</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item"
+                    data-description="Salmone norvegese bio marinato agli agrumi di Sicilia, pepe rosa, aneto e crostini."
+                    data-allergeni="ALLERGENI: .">carpaccio di salmone</a>
+                <span class="price">18</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item" data-description="Insalata di mare su letto di cous cous con verdure."
+                    data-allergeni="ALLERGENI: .">mare e cous cous</a>
+                <span class="new">novità</span>
+                <span class="price">17</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item"
+                    data-description="Insalata di moscardini tiepida su vellutata di zucca, spuma di ricotta e cipolle in agrodolce."
+                    data-allergeni="ALLERGENI: .">moscardini</a>
+                <span class="new">novità</span>
+                <span class="price">17</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item"
+                    data-description="San Daniele 22 mesi, salame nostrano, pancetta steccata e giardiniera di verdure nostrane."
+                    data-allergeni="ALLERGENI: .">tagliere di salumi misti e giardiniera</a>
+                <span class="price">12</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item"
+                    data-description="Peperoni rossi e gialli, cipolle, zucchine in agrodolce."
+                    data-allergeni="ALLERGENI: .">giardiniera di verdure nostrane</a>
+                <span class="price">7</span>
+            </li>
+
+        </ul>
+    </section>
+    <!-- Primi piatti -->
+    <section class="menu-section">
+        <h2>primi piatti</h2>
+        <ul>
+            <li data-highlight="true">
+                <a href="#" class="menu-item"
+                    data-description="Linguine di grano duro Senatore Cappelli all'astice fresco canadese"
+                    data-allergeni="ALLERGENI: .">linguine all'astice</a>
+                <span class="price">29</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item"
+                    data-description="Risotto Riserva San Massimo con capasanta ripassata al burro, affumicata al rosmarino con porcini."
+                    data-allergeni="ALLERGENI: .">risotto capasanta e porcini</a>
+                <span class="info-dish">(min. 2 persone)</span>
+                <span class="new">novità</span>
+                <span class="price">20</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item"
+                    data-description="Spaghetti di grano duro Pietro Massi con vongole veraci e bottarga."
+                    data-allergeni="ALLERGENI: .">spaghetti alle vongole</a>
+                <span class="price">19</span>
+            </li>
+            <li data-highlight="true">
+                <a href="#" class="menu-item"
+                    data-description="Paccheri di grano duro Pietro Massi con pesto di pistacchi, stracciatella e tartare di gambero."
+                    data-allergeni="ALLERGENI: .">paccheri pistacchio, stracciatella e gamberi</a>
+                <span class="price">19</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item"
+                    data-description="Calamarata Senatore Cappelli con ragù di polpo mediterraneo al profumo di limone."
+                    data-allergeni="ALLERGENI: .">calamarata e polpo</a>
+                <span class="new">novità</span>
+                <span class="price">16</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item"
+                    data-description="Gnocchetti di patate con crema di melanzane arrosto, formaggi d'alpeggio e guanciale."
+                    data-allergeni="ALLERGENI: .">gnocchetti</a>
+                <span class="new">novità</span>
+                <span class="price">13</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item"
+                    data-description="Casoncelli spinaci e ricotta fatti a mano, al burro versato."
+                    data-allergeni="ALLERGENI: .">casoncelli spinaci e ricotta</a>
+                <span class="price">13</span>
+            </li>
+        </ul>
+    </section>
+    <!-- Secondi -->
+    <section class="menu-section">
+        <h2>secondi</h2>
+        <ul>
+            <li>
+                <a href="#" class="menu-item"
+                    data-description="Branzino del mediterraneo (1,3 - 1,5)kg cotto al forno con pomodorini e taggiasche, servito con patate arrosto."
+                    data-allergeni="ALLERGENI: .">branzino intero alla mediterranea</a>
+                <span class="price-mod">70/Kg</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item"
+                    data-description="Astice, gamberoni, scampo, polpo, canestrelli cotti al vapore su letto di verdure fresche."
+                    data-allergeni="ALLERGENI: .">catalana di crostacei</a>
+                <span class="price">75</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item"
+                    data-description="Filetto di branzino, scampo, gamberone, salmone, calamaro... tutto secondo il mercato."
+                    data-allergeni="ALLERGENI: .">grigliata di pesce</a>
+                <span class="price">25</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item"
+                    data-description="Tentacoli di polpo fritto con patate e pesto di pomodorini, nocciole, arachidi e peperoni."
+                    data-allergeni="ALLERGENI: .">polpo fritto</a>
+                <span class="new">novità</span>
+                <span class="price">22</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item"
+                    data-description="Filetto di salmone Bio alla griglia, su vellutata di edamame e salsa teriyaky."
+                    data-allergeni="ALLERGENI: .">salmone alla griglia</a>
+                <span class="new">novità</span>
+                <span class="price">20</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item"
+                    data-description="Frittura con pescato del giorno, calamari, alici, sarde, trigliette, zanchette, cebola."
+                    data-allergeni="ALLERGENI: .">fritto di paranza</a>
+                <span class="price">20</span>
+            </li>
+            <li data-highlight="true">
+                <a href="#" class="menu-item"
+                    data-description="Frittura di calamari, gamberoni argentini e verdure servite con salsa tartara."
+                    data-allergeni="ALLERGENI: .">fritto imperiale</a>
+                <span class="price">19</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item"
+                    data-description="Tagliata di Angus alla griglia servita con cipolle caramellate."
+                    data-allergeni="ALLERGENI: .">tagliata di angus</a>
+                <span class="price">16</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item" data-description="Fiorentina di Scottona Irlandese alla brace"
+                    data-allergeni="ALLERGENI: .">fiorentina</a>
+                <span class="price-mod">58/Kg</span>
+            </li>
+        </ul>
+    </section>
+    <!-- Contorni -->
+    <section class="menu-section">
+        <h2>contorni</h2>
+        <ul>
+            <li>
+                <a href="#" class="menu-item" data-description="Patate al forno." data-allergeni="ALLERGENI: .">patate
+                    al forno</a>
+                <span class="price">5</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item" data-description="Patatine fritte." data-allergeni="ALLERGENI: .">patatine
+                    fritte</a>
+                <span class="price">5</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item" data-description="Verdure alla griglia."
+                    data-allergeni="ALLERGENI: .">verdure alla griglia</a>
+                <span class="price">5</span>
+            </li>
+            <li>
+                <a href="#" class="menu-item" data-description="Pinzimonio di verdure."
+                    data-allergeni="ALLERGENI: .">pinzimonio di verdure</a>
+                <span class="price">5</span>
+            </li>
+        </ul>
+    </section>
+    <!-- Informazioni menu -->
+    <section class="menu-info">
+        <h3>Pane, coperto e servizio: 2 euro</h3>
+        <p id="paragrafo-allergeni">
+            Nella preparazione dei nostri piatti utilizziamo prodotti che rientrano nella lista
+            degli <b>ALLERGENI ALIMENTARI</b> come: cereali con glutine, uova, pesce, latte, soia, frutta a guscio,
+            senape, sedano e solfiti.
+        </p>
+        <p id="paragrafo-modifiche">
+            È possibile modificare alcuni piatti per intolleranze o allergie alimentari. In mancanza del prodotto fresco
+            potrebbe essere utilizzato un prodotto congelato all'origine di qualità adeguata.
+        </p>
+        <p id="paragrafo-alimenti-crudi">
+            Gli alimenti serviti crudi sono obbligatoriamente sottoposti a processo di
+            abbattimento secondo il <b>REG CE 853/2004</b>
+        </p>
+    </section>
+    <!-- Finestra popup -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <div class="popup-header">
+                <h4 id="popup-title"></h4>
+                <span class="close">&times;</span>
+            </div>
+            <hr>
+            <div class="popup-body">
+                <img id="popup-img" src="" alt="Immagine del piatto">
+                <div class="popup-description">
+                    <p id="popup-description-item"></p>
+                    <p id="popup-description-allergeni"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
