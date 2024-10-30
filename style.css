@@ -133,7 +133,7 @@ li[data-highlight="classic"] {
 }
 
 .menu-start {
-    cursor: text;
+    cursor: default;
 }
 
 .info-dish,
