@@ -91,6 +91,9 @@ li {
     padding-top: 8px;
     border-top: 1.5px dotted #2e408d;
     padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 li[data-highlight="classic"],
@@ -119,8 +122,9 @@ li[data-highlight="classic"] {
 .menu-item {
     text-decoration: none;
     color: #2e408d;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
+    margin-right: 8px;
 }
 
 .menu-item:hover {
@@ -142,7 +146,6 @@ li[data-highlight="classic"] {
 
 .new {
     color: #bfa460;
-    margin-left: 8px;
 }
 
 .info-dish {
@@ -150,10 +153,13 @@ li[data-highlight="classic"] {
 }
 
 .price {
+    display: block;
     color: #2e408d;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
     float: right;
+    white-space: nowrap;
+    margin-left: 8px;
 }
 
 .price-mod {
