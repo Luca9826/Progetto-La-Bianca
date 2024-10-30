@@ -232,19 +232,19 @@ li[data-highlight="classic"] {
     margin: 0 -30px;
 }
 
-.popup-body {
+/* .popup-body {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
     margin-right: 30px;
-}
+} */
 
 #popup-description-item {
     text-transform: none;
     color: #2e408d;
-    padding: 30px 0 16px 0;
-    font-size: 2vw;
+    padding: 24px 0 16px 0;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -253,13 +253,13 @@ li[data-highlight="classic"] {
     color: #000000;
     padding-top: 16px;
     border-top: 1.5px dotted #2e408d;
-    font-size: 1.5vw;
+    font-size: 12px;
     font-weight: 600;
 }
 
 #popup-img {
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
     margin-top: 24px;
     border-radius: 8px;
 }
