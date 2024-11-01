@@ -233,15 +233,18 @@ li[data-highlight="classic"] {
 
 #popup-title {
     color: #bfa460;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
 }
 
-.popup-content hr {
-    height: 0.5px;
-    border: none;
-    background-color: #2e408d;
-    margin: 0 -30px;
+.img_greca {
+    width: 200px;
+    height: auto;
+}
+
+.popup-greca {
+    display: flex;
+    justify-content: center;
 }
 
 /* .popup-body {
