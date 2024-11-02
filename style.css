@@ -8,7 +8,7 @@
 
 body {
     background-color: #ffffff;
-    padding: 8px 20px;
+    padding: 20px;
 }
 
 .image-container {
@@ -50,7 +50,8 @@ body {
     cursor: pointer;
 }
 
-.title-container {
+.title-container-menu,
+.title-container-carta {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,15 +83,14 @@ h1 {
     color: #bfa460;
 }
 
-ul {
+.menu-section ul {
     list-style: none;
     padding: 0;
 }
 
-li {
-    padding-top: 8px;
+.menu-section li {
+    padding: 8px 0;
     border-top: 1.5px dotted #2e408d;
-    padding-bottom: 8px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -118,6 +118,7 @@ li[data-highlight="classic"] {
     margin: 32px 0;
 }
 
+.menu-add,
 .menu-start,
 .menu-item {
     text-decoration: none;
@@ -132,6 +133,7 @@ li[data-highlight="classic"] {
     cursor: pointer;
 }
 
+.menu-add,
 .menu-start {
     cursor: default;
 }
@@ -171,8 +173,8 @@ li[data-highlight="classic"] {
     text-transform: none;
 }
 
-.menu-info h3 {
-    font-size: 12px;
+h3 {
+    font-size: 14px;
     font-weight: 500;
     color: #2e408d;
     text-transform: none;
@@ -180,9 +182,75 @@ li[data-highlight="classic"] {
     margin-top: 32px;
 }
 
+.title-container-menu {
+    margin: 80px 0 16px 0;
+}
+
+.info-menu-container {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h4 {
+    font-size: 12px;
+    font-weight: lighter;
+    color: #000000;
+}
+
+.img-menu-autunno,
+.img-menu-bianca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.img_menu_1 {
+    width: auto;
+    height: 150px;
+}
+
+.img_menu_2 {
+    width: auto;
+    height: 150px;
+}
+
+.menu-deg-section ul {
+    list-style: none;
+    padding: 16px;
+    border-left: 1.5px solid #bfa460;
+    border-right: 1.5px solid #bfa460;
+    border-top: 1.5px solid #bfa460;
+}
+
+.menu-deg-section li {
+    padding: 12px 0;
+    text-align: center;
+}
+
+.indicazioni {
+    text-align: center;
+    border: 1.5px solid #bfa460;
+    padding: 16px 0;
+    margin-bottom: 50px;
+}
+
+.menu-deg-section h5 {
+    color: #bfa460;
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+.menu-deg-section h6 {
+    color: #2e408d;
+    font-size: 15px;
+    font-weight: 500;
+}
+
 .menu-info p {
     font-size: 10px;
-    font-weight: 500;
+    font-weight: lighter;
     color: #000000;
     text-transform: none;
     line-height: 16px;
